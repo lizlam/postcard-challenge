@@ -12,12 +12,13 @@
     perspective: 700;
     width: 650px;
     height: 350px;
-    background-color: black;
+    background-color: grey;
     color: white;
     font-size: 15em;
     font-family: fantasy;
     padding: 30px;
     border-radius: 15px;
+    margin-bottom: 20px;
   }
 
   .card {

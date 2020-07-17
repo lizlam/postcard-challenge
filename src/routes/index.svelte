@@ -29,6 +29,7 @@
   }
 
   p {
+    font-size: 2em;
     margin: 1em auto;
   }
 
@@ -44,8 +45,6 @@
 </svelte:head>
 
 <h1>Postcard Challenge</h1>
-Create 7 postcard sized games in 7 days.
-<Form />
-
+<p>Create 7 postcard sized games in 7 days.</p>
 <Card dayNumber="1" dayImg="day1.jpg" />
 <Card dayNumber="2" dayImg="day2.jpg" />

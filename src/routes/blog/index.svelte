@@ -25,7 +25,7 @@
 
 <h1>Take the Postcard Game Challenge</h1>
 <ul>
-  <li>Create a micro game based on the postcard sized drawing.</li>
+  <li>Create the rules of a micro game based on the postcard sized drawing.</li>
   <li>
     Share it on any social media platform (or if you hate social media, share
     with a friend).
@@ -39,10 +39,32 @@
 </ul>
 <p>
   Have fun and use your imagination. Feel free to use game pieces such has
-  pawns, dice, cubes, etc. The sky's the limit with accessories but only use the
-  postcard as the board.
+  pawns, dice, cubes, etc. The sky's the limit.
 </p>
-
+<h2>Need a worksheet? Download them below.</h2>
+<ul>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 1</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 2</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 3</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 4</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 5</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 6</a>
+  </li>
+  <li>
+    <a href="Postcard-Challenge-Day1.pdf">Day 7</a>
+  </li>
+</ul>
 <ul>
   {#each posts as post}
     <!-- we're using the non-standard `rel=prefetch` attribute to
