@@ -23,7 +23,7 @@
   <title>Challenge</title>
 </svelte:head>
 
-<h1>Take the Postcard Game Challenge</h1>
+<h1 class="text-5xl">Take the Postcard Game Challenge</h1>
 <ul>
   <li>Create the rules of a micro game based on the postcard sized drawing.</li>
   <li>
