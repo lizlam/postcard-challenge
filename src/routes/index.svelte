@@ -21,7 +21,7 @@
     font-family: VacationsBrush;
     text-transform: uppercase;
     font-size: 15em;
-    font-weight: 700;
+    font-weight: 300;
   }
 </style>
 
@@ -29,7 +29,7 @@
   <title>Postcard | Challenge</title>
 </svelte:head>
 
-<h1 class="leading-none">Postcard Challenge</h1>
+<h1 class="leading-none bg-gray-100 px-3 mx-2">Postcard Challenge</h1>
 <p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
 <Card dayNumber="1" dayImg="day1.jpg" />
 <Card dayNumber="2" dayImg="day2.jpg" />
