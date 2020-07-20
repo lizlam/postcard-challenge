@@ -4,11 +4,12 @@
 </script>
 
 <style>
+  @import "font.css";
   @font-face {
     font-family: "VacationsBrush";
-    src: url("./VactionsBrush.woff") format("woff");
+    src: url("https://postcard-challenge-git-tailwind.lizlam.vercel.app/VacationsBrush.woff")
+      format("woff");
   }
-
   h1,
   figure,
   p {
