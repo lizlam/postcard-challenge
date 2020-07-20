@@ -4,7 +4,6 @@
 </script>
 
 <style>
-  @import "font.css";
   @font-face {
     font-family: "VacationsBrush";
     src: url("https://postcard-challenge-git-tailwind.lizlam.vercel.app/VacationsBrush.woff")
@@ -15,35 +14,14 @@
   p {
     text-align: center;
     margin: 0 auto;
+    font-family: fantasy;
   }
 
   h1 {
     font-family: VacationsBrush;
-    font-size: 2.8em;
     text-transform: uppercase;
+    font-size: 15em;
     font-weight: 700;
-    margin: 0 0 0.5em 0;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
-  }
-
-  p {
-    font-size: 2em;
-    margin: 1em auto;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      font-size: 4em;
-    }
   }
 </style>
 
@@ -51,8 +29,8 @@
   <title>Postcard | Challenge</title>
 </svelte:head>
 
-<h1>Postcard Challenge</h1>
-<p>Create 7 postcard sized games in 7 days.</p>
+<h1 class="leading-none">Postcard Challenge</h1>
+<p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
 <Card dayNumber="1" dayImg="day1.jpg" />
 <Card dayNumber="2" dayImg="day2.jpg" />
 <Card dayNumber="3" dayImg="day3.jpg" />
