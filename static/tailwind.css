@@ -1,3 +1,10 @@
 @tailwind base;
-@tailwind components;
+@tailwind component;
+
+.download-card {
+  @apply bg-gray-200 border-gray-500 rounded-sm w-1/6; text-center;
+}
+.download-card:hover {
+  @apply bg-gray-400;
+}
 @tailwind utilities;

@@ -1,4 +1,5 @@
 <script>
+  import { fade } from "svelte/transition";
   import Form from "../components/Form.svelte";
   import Card from "../components/Card.svelte";
 </script>
@@ -34,14 +35,16 @@
   <title>Postcard | Challenge</title>
 </svelte:head>
 
-<h1 class="leading-none bg-gray-100 px-3 mx-2">Postcard Challenge</h1>
-<p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
-<div class="container">
-  <Card dayNumber="1" dayImg="day1.jpg" />
-  <Card dayNumber="2" dayImg="day2.jpg" />
-  <Card dayNumber="3" dayImg="day3.jpg" />
-  <Card dayNumber="4" dayImg="day4.jpg" />
-  <Card dayNumber="5" dayImg="day5.jpg" />
-  <Card dayNumber="6" dayImg="day6.jpg" />
-  <Card dayNumber="7" dayImg="day7.jpg" />
-</div>
+<main in:fade>
+  <h1 class="leading-none bg-gray-100 px-3 mx-2">Postcard Challenge</h1>
+  <p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
+  <div class="container">
+    <Card dayNumber="1" dayImg="day1.jpg" />
+    <Card dayNumber="2" dayImg="day2.jpg" />
+    <Card dayNumber="3" dayImg="day3.jpg" />
+    <Card dayNumber="4" dayImg="day4.jpg" />
+    <Card dayNumber="5" dayImg="day5.jpg" />
+    <Card dayNumber="6" dayImg="day6.jpg" />
+    <Card dayNumber="7" dayImg="day7.jpg" />
+  </div>
+</main>
