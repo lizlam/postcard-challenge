@@ -10,7 +10,6 @@
       format("woff");
   }
   h1,
-  figure,
   p {
     text-align: center;
     margin: 0 auto;
@@ -23,6 +22,12 @@
     font-size: 15em;
     font-weight: 300;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+  }
 </style>
 
 <svelte:head>
@@ -31,10 +36,12 @@
 
 <h1 class="leading-none bg-gray-100 px-3 mx-2">Postcard Challenge</h1>
 <p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
-<Card dayNumber="1" dayImg="day1.jpg" />
-<Card dayNumber="2" dayImg="day2.jpg" />
-<Card dayNumber="3" dayImg="day3.jpg" />
-<Card dayNumber="4" dayImg="day4.jpg" />
-<Card dayNumber="5" dayImg="day5.jpg" />
-<Card dayNumber="6" dayImg="day6.jpg" />
-<Card dayNumber="7" dayImg="day7.jpg" />
+<div class="container">
+  <Card dayNumber="1" dayImg="day1.jpg" />
+  <Card dayNumber="2" dayImg="day2.jpg" />
+  <Card dayNumber="3" dayImg="day3.jpg" />
+  <Card dayNumber="4" dayImg="day4.jpg" />
+  <Card dayNumber="5" dayImg="day5.jpg" />
+  <Card dayNumber="6" dayImg="day6.jpg" />
+  <Card dayNumber="7" dayImg="day7.jpg" />
+</div>

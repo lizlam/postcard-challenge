@@ -40,9 +40,9 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background: #ffc728;
     display: block;
-    bottom: -1px;
+    bottom: 30px;
   }
 
   a {

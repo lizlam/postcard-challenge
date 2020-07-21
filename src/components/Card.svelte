@@ -11,10 +11,10 @@
     position: relative;
     perspective: 700;
     width: 650px;
-    height: 350px;
+    height: 450px;
     background-color: grey;
     color: white;
-    font-size: 15em;
+    font-size: 14em;
     font-family: fantasy;
     padding: 30px;
     border-radius: 15px;
@@ -24,7 +24,7 @@
   .card {
     position: absolute;
     text-align: center;
-    line-height: 400px;
+    line-height: 2.1em;
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
@@ -51,10 +51,10 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: #ffc728;
     color: #333;
     border-radius: 15px;
     transform: rotateY(180deg);
+    text-align: center;
   }
 
   input {
@@ -67,8 +67,8 @@
     <input type="checkbox" />
     <div class="card">
       <div class="front">Day {dayNumber}</div>
-      <div class="back">
-        <img alt="alt tag" src={dayImg} />
+      <div class="back bg-gray-100">
+        <img alt="alt tag" class="p-4" src={dayImg} />
       </div>
     </div>
   </label>
