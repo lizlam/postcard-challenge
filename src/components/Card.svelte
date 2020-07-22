@@ -1,8 +1,9 @@
 <script>
   export let dayNumber = "1";
   export let dayImg = "day1.jpg";
-  const handleClick = () => {
-    console.log("test");
+  const handleClick = num => {
+    let key = "PCCday".concat(num);
+    localStorage.setItem(key, true);
   };
 </script>
 
@@ -12,7 +13,7 @@
     perspective: 700;
     width: 650px;
     height: 450px;
-    background-color: grey;
+    background-color: #ccc;
     color: white;
     font-size: 14em;
     font-family: fantasy;
@@ -62,7 +63,7 @@
   }
 </style>
 
-<div class="container" on:click={handleClick}>
+<div class="container" on:click={handleClick({ dayNumber })}>
   <label>
     <input type="checkbox" />
     <div class="card">

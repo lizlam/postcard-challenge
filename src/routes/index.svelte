@@ -13,12 +13,13 @@
   h1,
   p {
     text-align: center;
-    margin: 0 auto;
     font-family: fantasy;
+    margin-bottom: 3rem;
   }
 
   h1 {
     font-family: VacationsBrush;
+    margin: 0 auto;
     text-transform: uppercase;
     font-size: 15em;
     font-weight: 300;
@@ -28,6 +29,14 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3em;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 5em;
+    }
   }
 </style>
 
@@ -36,8 +45,8 @@
 </svelte:head>
 
 <main in:fade>
-  <h1 class="leading-none bg-gray-100 px-3 mx-2">Postcard Challenge</h1>
-  <p class="text-4xl">Create 7 postcard sized games in 7 days.</p>
+  <h1 class="leading-none px-3 mx-2 sm:text-lg">Postcard Challenge</h1>
+  <p class="text-4xl m">Create 7 postcard sized games in 7 days.</p>
   <div class="container">
     <Card dayNumber="1" dayImg="day1.jpg" />
     <Card dayNumber="2" dayImg="day2.jpg" />

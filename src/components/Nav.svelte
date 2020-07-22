@@ -50,6 +50,12 @@
     padding: 1em 0.5em;
     display: block;
   }
+
+  @media (max-width: 600px) {
+    nav {
+      font-size: 1.5em;
+    }
+  }
 </style>
 
 <nav>
