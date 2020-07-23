@@ -11,6 +11,9 @@
     background-color: black;
     color: white;
     font-family: fantasy;
+    position: sticky;
+    top: 0;
+    z-index: 2;
   }
 
   ul {

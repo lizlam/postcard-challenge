@@ -61,6 +61,14 @@
   input {
     display: none;
   }
+
+  @media (max-width: 600px) {
+    .container {
+      width: 325px;
+      height: 225px;
+      font-size: 7em;
+    }
+  }
 </style>
 
 <div class="container" on:click={handleClick({ dayNumber })}>
