@@ -1,6 +1,7 @@
 <script>
   export let dayNumber = "1";
   export let dayImg = "day1.jpg";
+
   const handleClick = num => {
     let key = "PCCday".concat(num);
     localStorage.setItem(key, true);
@@ -47,6 +48,10 @@
     border-radius: 15px;
   }
 
+  .front:hover {
+    box-shadow: rgb(0, 0, 0, 0.8) 0 0 10px;
+  }
+
   .back {
     position: absolute;
     width: 100%;
@@ -56,6 +61,7 @@
     border-radius: 15px;
     transform: rotateY(180deg);
     text-align: center;
+    box-shadow: rgb(0, 0, 0, 0.8) 0 0 10px;
   }
 
   input {

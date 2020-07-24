@@ -2,6 +2,7 @@
   import { fade } from "svelte/transition";
   import Form from "../components/Form.svelte";
   import Card from "../components/Card.svelte";
+  import typeWriter from "../lib/typewriter.js";
 </script>
 
 <style>
@@ -46,7 +47,9 @@
 
 <main in:fade>
   <h1 class="leading-none px-3 mx-2 sm:text-lg">Postcard Challenge</h1>
-  <p class="text-4xl m">Create 7 postcard sized games in 7 days.</p>
+  <p use:typeWriter class="text-4xl m">
+    Create 7 postcard sized games in 7 days.
+  </p>
   <div class="container">
     <Card dayNumber="1" dayImg="day1.jpg" />
     <Card dayNumber="2" dayImg="day2.jpg" />
