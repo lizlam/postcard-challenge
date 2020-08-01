@@ -38,6 +38,11 @@
     h1 {
       font-size: 5em;
     }
+
+    .container {
+      margin-left: 0;
+      grid-gap: 2em;
+    }
   }
 </style>
 
