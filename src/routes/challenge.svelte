@@ -34,7 +34,7 @@
   }
 
   img {
-    padding-left: 17px;
+    padding-left: 30px;
   }
 
   @media (max-width: 600px) {
