@@ -33,6 +33,10 @@
     grid-gap: 7px;
   }
 
+  img {
+    padding-left: 17px;
+  }
+
   @media (max-width: 600px) {
     h1 {
       font-size: 6em;
@@ -45,7 +49,7 @@
 </svelte:head>
 
 <main in:fade>
-  <h1 class="leading-none text-center px-3 mx-2 my-2">Challenge</h1>
+  <img alt="Challenge" src="challenge.png" />
   <p class="text-4xl">Take the Postcard Challenge!</p>
   <ul>
     <li class="text-2xl">

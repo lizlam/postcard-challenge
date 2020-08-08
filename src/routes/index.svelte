@@ -43,6 +43,10 @@
       margin-left: 0;
       grid-gap: 2em;
     }
+   
+    img {
+      width: 400px;
+    }
   }
 </style>
 
@@ -51,7 +55,7 @@
 </svelte:head>
 
 <main in:fade>
-  <h1 class="leading-none px-3 mx-2 sm:text-lg">Postcard Challenge</h1>
+  <img alt="Postcard Challenge" src="home.png" />
   <p use:typeWriter class="text-4xl m">
     Create 7 postcard sized games in 7 days.
   </p>

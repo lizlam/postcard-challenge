@@ -13,9 +13,18 @@
     font-family: fantasy;
   }
 
+  img {
+    padding-left: 80px;
+  }
+
   @media (max-width: 600px) {
     h1 {
       font-size: 5em;
+    }
+
+    img {
+      width: 400px;
+      padding-left: 20px;
     }
   }
 </style>
@@ -25,7 +34,7 @@
 </svelte:head>
 
 <main in:fade>
-  <h1 class="text-center">About</h1>
+  <img alt="About" src="about.png" />
   <p class="text-4xl">
     This is a challenge for aspiring boardgame designers to get their creative
     juices flowing.
